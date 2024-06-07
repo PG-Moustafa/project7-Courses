@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00036B;
+}
+
+#bau-logo {
+    width: 200px;
+    height: 50px;
+}
+
+main {}
+
+.main1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main2 {
+    padding-top: 50px;
+}
+
+#bau-image {
+    border-radius: 100% 150% 100% 100%;
+
+}
+
+
+
+.spaced-text {
+    margin: 0 0.5rem;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+.main3 {
+    padding-bottom: 50px;
+}
+
+.topCourses {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.courseBtn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#courseImage {
+    border-radius: 10% 0 0 10%;
+
+}
+
+.course {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    width: 600px !important;
+    margin-top: 10%;
+}
+
+.course2,
+.course3 {
+    display: none;
+}
+
+@media screen and (max-width: 3000px) {
+    #bau-image {
+        width: 650px;
+        height: 500px;
+        padding-top: 75px;
+    }
+
+    .course {
+        width: 800px;
+    }
+
+    .courseDetails {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #bau-image {
+        width: 500px;
+        height: 350px;
+    }
+
+    .course {
+        width: 350px !important;
+        font-size: 14px;
+        margin-top: 50%;
+    }
+
+    .courseDetails {
+        font-size: 14px;
+    }
+}
