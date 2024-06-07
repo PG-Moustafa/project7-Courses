@@ -71,6 +71,12 @@ main {}
     display: none;
 }
 
+.fa-brands {
+    padding: 7px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
 @media screen and (max-width: 3000px) {
     #bau-image {
         width: 650px;
