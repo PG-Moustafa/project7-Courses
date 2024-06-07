@@ -91,6 +91,11 @@ main {}
     .courseDetails {
         font-size: 18px;
     }
+
+    #courseId {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -107,5 +112,10 @@ main {}
 
     .courseDetails {
         font-size: 14px;
+    }
+
+    #courseId {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
